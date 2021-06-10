@@ -47,7 +47,7 @@ dependencies {
 
 task makeJar(type: Jar) {
     //指定生成的jar包名
-    baseName 'PictureSelector'
+    baseName 'PictureSelectorV2.7.3'
     //从哪里打包class文件,前面路径都是一样的 只需要把报名改了就行  我的包名是com/example   com.luck.picture.lib
     from('build/intermediates/classes/debug/com/luck/picture/lib')
     //打包到jar后的目录结构,可以自行选择打包路径
